@@ -1,3 +1,8 @@
+目前网上提供的安装docker_compose有很多种，但是失败了比较高，偶然发现有个网站下载docker_compose很快。这里贴出来， 
+http://mirror.azure.cn/docker-toolbox/linux/compose/
+
+curl -L http://mirror.azure.cn/docker-toolbox/linux/compose/1.25.4/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 # tag
 - 4.7.0
 - server-4.6.1 , broker-4.6.1
